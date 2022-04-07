@@ -1,0 +1,16 @@
+{
+  "name": "docker-web-app",
+  "version": "1.0.0",
+  "description": "Dockerize a simple node app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "type": "module",
+  "author": "Manoram Taparia",
+  "license": "ISC"
+}
